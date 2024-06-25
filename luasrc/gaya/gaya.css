@@ -1335,7 +1335,7 @@
  	-webkit-appearance: none;
  	-ms-touch-action: manipulation;
  	touch-action: manipulation;
- 	padding: 1rem 0.8rem;
+ 	padding: 0 0.8rem;
  }
 
  .cbi-button-up {
