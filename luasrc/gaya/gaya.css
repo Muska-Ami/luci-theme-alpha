@@ -3648,7 +3648,7 @@ h2[name="content"] {
 }
 
 #actioner .action {
-	background-color: #333333;
+	background-color: #333333 !important;
 }
 
 .app-interfaces span, .app-container span {
