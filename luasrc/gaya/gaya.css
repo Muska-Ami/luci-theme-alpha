@@ -855,9 +855,7 @@
 
  .main>.main-left>.nav>.slide>.menu,
  .main>.main-left>.nav>li>[data-title="Logout"],
- .main>.main-left>.nav>li>[data-title="退出"],
- .main>.main-left>.nav>li>[data-title="iStore"],
- .main>.main-left>.nav>li>[data-title="Dashboard"] {
+ .main>.main-left>.nav>li>[data-title="退出"] {
  	font-size: 1rem;
  	font-weight: 500;
  	display: flex;
@@ -865,7 +863,7 @@
  	width: 100%;
  	text-decoration: none;
  	color: #fff;
- 	padding: 0.5rem 1rem;
+ 	padding: 0.5rem;
  	transition-duration: 200ms;
  	margin-bottom: 5px;
  }
@@ -3621,14 +3619,20 @@
  }
 
 h2[name="content"] {
-	background-color: var(--main-color);
+	padding-top: 10px;
+	background-color: #2222359a;
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
 	border-radius: 20px;
 }
 
-.network-container .network-container_flow,
+.network-container .network-container_flow .network-container_flow-container,
 .network-container_status .app-container_status-label .app-container_status-label_item,
 .network-container_status .app-container_status-container,
 .nas-container .nas-container_card,
 .app-container {
-	background-color: var(--main-color) !important;
+	background-color: #2222359a;
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	backdrop-filter: 
 }
