@@ -3635,3 +3635,7 @@ h2[name="content"] {
 	-webkit-backdrop-filter: blur(20px);
 	border-radius: 20px !important;
 }
+
+.container_success {
+	color: white;
+}
