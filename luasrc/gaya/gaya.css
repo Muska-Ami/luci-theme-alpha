@@ -3620,7 +3620,7 @@
 
 h2[name="content"] {
 	padding-top: 10px;
-	background-color: #2222359a;
+	background-color: #2222359a !important;
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
 	border-radius: 20px;
@@ -3631,8 +3631,8 @@ h2[name="content"] {
 .network-container_status .app-container_status-container,
 .nas-container .nas-container_card,
 .app-container {
-	background-color: #2222359a;
+	background-color: #2222359a !important;
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
-	backdrop-filter: 
+	border-radius: 20px;
 }
