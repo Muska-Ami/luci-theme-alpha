@@ -3636,6 +3636,21 @@ h2[name="content"] {
 	border-radius: 20px !important;
 }
 
+.app-container_status-label_item .app-container_status-container {
+	background-color: none !important;
+	backdrop-filter: none;
+	-webkit-backdrop-filter: none;
+	border-radius: 0 !important;
+}
+
 .container_success {
 	color: white;
+}
+
+#actioner .action {
+	background-color: #333333;
+}
+
+.app-interfaces span, .app-container span {
+	color: white !important;
 }
