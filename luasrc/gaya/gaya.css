@@ -3648,9 +3648,9 @@ h2[name="content"] {
 }
 
 #actioner .action {
-	background-color: #333333 !important;
+	color: white !important;
 }
 
-.app-interfaces span, .app-container span {
+.app-interfaces span, .app-container span, .app-container_status-label_block {
 	color: white !important;
 }
