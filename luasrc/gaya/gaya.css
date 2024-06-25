@@ -3640,7 +3640,7 @@ h2[name="content"] {
 	background-color: none !important;
 	backdrop-filter: none;
 	-webkit-backdrop-filter: none;
-	border-radius: 0 !important;
+	border-radius: 20px !important;
 }
 
 .container_success {
