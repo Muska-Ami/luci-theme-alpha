@@ -3627,12 +3627,11 @@ h2[name="content"] {
 }
 
 .network-container .network-container_flow .network-container_flow-container,
-.network-container_status .app-container_status-label .app-container_status-label_item,
+.network-container_status .app-container_status-label,
 .network-container_status .app-container_status-container,
-.nas-container .nas-container_card,
 .app-container {
 	background-color: #2222359a !important;
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
-	border-radius: 20px;
+	border-radius: 20px !important;
 }
