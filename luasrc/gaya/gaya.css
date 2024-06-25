@@ -555,7 +555,7 @@
  	text-align: center;
  	white-space: nowrap;
  	color: #000000;
- 	padding: 1rem;
+ 	padding: 1.5rem;
  }
 
  footer>a {
@@ -818,6 +818,7 @@
  }
 
  .main>.main-left>.nav>li {
+	padding: 0.5rem 1rem;
  	cursor: pointer;
  	-webkit-user-select: none;
  	-moz-user-select: none;
@@ -826,9 +827,9 @@
  }
 
  .main>.main-left>.nav>li>[data-title="Log out"],
+ .main>.main-left>.nav>li>[data-title="退出"],
  .main>.main-left>.nav>li>[data-title="Logout"] {
  	display: flex;
- 	padding: 0.5rem 1rem;
  }
 
  .main>.main-left>.nav>li a {
@@ -838,6 +839,7 @@
 
  .main>.main-left>.nav>li>[data-title="Log out"],
  .main>.main-left>.nav>li>[data-title="Logout"],
+ .main>.main-left>.nav>li>[data-title="退出"],
  .main>.main-left>.nav>li>[data-title="iStore"] {
  	font-size: 1rem;
  	color: #fff;
@@ -853,6 +855,7 @@
 
  .main>.main-left>.nav>.slide>.menu,
  .main>.main-left>.nav>li>[data-title="Logout"],
+ .main>.main-left>.nav>li>[data-title="退出"],
  .main>.main-left>.nav>li>[data-title="iStore"],
  .main>.main-left>.nav>li>[data-title="Dashboard"] {
  	font-size: 1rem;
@@ -1278,7 +1281,7 @@
  .cbi-section-table-row::before,
  #cbi-wireless>#wifi_assoclist_table>.tr:nth-child(2) {
  	color: #ffffff;
- 	border-top: thin solid rgba(255, 255, 255, 0);
+ 	border-top: thin solid rgba(255, 255, 255, 0) !important;
  }
 
  .table[width="100%"]>.tr:first-child>.td {
@@ -1334,7 +1337,7 @@
  	-webkit-appearance: none;
  	-ms-touch-action: manipulation;
  	touch-action: manipulation;
- 	padding: 0 0.8rem;
+ 	padding: 1rem 0.8rem;
  }
 
  .cbi-button-up {
@@ -3616,3 +3619,16 @@
  		background: #424242;
  	}
  }
+
+h2[name="content"] {
+	background-color: var(--main-color);
+	border-radius: 20px;
+}
+
+.network-container .network-container_flow,
+.network-container_status .app-container_status-label .app-container_status-label_item,
+.network-container_status .app-container_status-container,
+.nas-container .nas-container_card,
+.app-container {
+	background-color: var(--main-color) !important;
+}
