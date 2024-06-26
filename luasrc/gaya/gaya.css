@@ -3627,7 +3627,6 @@ h2[name="content"] {
 }
 
 .network-container .network-container_flow .network-container_flow-container,
-.network-container_status .app-container_status-label,
 .network-container_status .app-container_status-container,
 .app-container {
 	background-color: #2222359a !important;
@@ -3641,6 +3640,7 @@ h2[name="content"] {
 	backdrop-filter: none;
 	-webkit-backdrop-filter: none;
 	border-radius: 20px !important;
+	color: white;
 }
 
 .container_success {
