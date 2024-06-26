@@ -1,3 +1,7 @@
+<%
+	local util = require "luci.util"
+	local boardinfo = util.ubus("system", "board") or { }
+-%>
 <!DOCTYPE html>
 <!-- saved from url=(0014)about:internet -->
 <html lang="en">
@@ -11,15 +15,15 @@
 	<meta name="theme-color" content="#09c">
 	<meta name="msapplication-tap-highlight" content="no">
 	<meta name="msapplication-TileColor" content="#09c">
-	<meta name="application-name" content="Alpha - LuCI">
-	<meta name="apple-mobile-web-app-title" content="Alpha - LuCI">
+	<meta name="application-name" content="<%=striptags( (boardinfo.hostname or "?") ) %> - LuCI">
+	<meta name="apple-mobile-web-app-title" content="<%=striptags( (boardinfo.hostname or "?") ) %> - LuCI">
 	<link rel="stylesheet" href="/luci-static/alpha/style/style.css">
 	<link rel="shortcut icon" href="luci-static/alpha/favicon.ico">
 	<script src="/cgi-bin/luci/admin/translations/en?v=git-22.339.35089-7af4a64"></script>
 	<script src="/luci-static/resources/cbi.js?v=git-22.339.35089-7af4a64"></script>
 
 
-	<title>Alpha - Login</title>
+	<title><%=striptags( (boardinfo.hostname or "?") ) %> - Login</title>
 </head>
 
 <body class="lang_en  node-main-login" data-page=""
@@ -50,7 +54,8 @@
 			</div> -->
 
 				<div class='box-login'>
-					<label class='checkbox'>
+					<h2>登录到 <%=striptags( (boardinfo.hostname or "?") ) %></h2>
+					<label class='checkbox' style="margin-top: 10px;">
 						请键入登录信息。
 					</label>
 					<label class='checkbox'>
