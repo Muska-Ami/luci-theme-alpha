@@ -3640,7 +3640,9 @@ h2[name="content"] {
 	backdrop-filter: none;
 	-webkit-backdrop-filter: none;
 	border-radius: 20px !important;
-	color: white;
+}
+.app-container_status-label_item .app-container_status-container span, .app-container_status-label_text {
+	color: white !important;
 }
 
 .container_success {
